@@ -31,10 +31,10 @@ router.post('/api/notes', (req, res) => {
     }
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/api/notes/:id', (req, res) => {
     const result = findById(req.params.id, notes);
     if (result) {
-        result.splice(id, id);
+        result.splice(1, 1);
     } else {
         res.send(404);
     }
