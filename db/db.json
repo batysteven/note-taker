@@ -1,21 +1,6 @@
 {
   "notes": [
     {
-      "id": "0",
-      "title": "Test Title",
-      "text": "Test Text"
-    },
-    {
-      "id": "1",
-      "title": "Test Title",
-      "text": "Test Text"
-    },
-    {
-      "id": "2",
-      "title": "Test Title",
-      "text": "Test Text"
-    },
-    {
       "title": "Rawr",
       "text": "awesome note!",
       "id": "1mroi6p4kmzuje9j"
@@ -24,6 +9,11 @@
       "title": "Anime 4 lyfe",
       "text": "oh yeah",
       "id": "1mroiftokmzuo2ob"
+    },
+    {
+      "title": "Bootcamp",
+      "text": "Gotta get er' done!",
+      "id": "1mroi4gskmzwlu7r"
     }
   ]
 }
