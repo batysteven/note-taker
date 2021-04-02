@@ -1,17 +1,13 @@
 const router = require ('express').Router();
 const { findById, createNewNote, validateNote } = require('../../lib/notes');
-const { notes } = require('../../db/db.json');
+const { notes } = require('../../db/db');
 const uniqid = require('uniqid');
 
-router.get('/api/notes', (req, res) => {
-    let results = notes;
-    if(req.query) {
-        results = (req.query, results);
-    }
-    res.json(results);
+router.get('/notes', (req, res) => {
+    res.json(notes);
 });
 
-router.get('/api/notes/:id', (req, res) => {
+router.get('/notes/:id', (req, res) => {
     const result = findById(req.params.id, notes);
     if (result) {
         res.json(result);
@@ -20,7 +16,7 @@ router.get('/api/notes/:id', (req, res) => {
     }
 });
 
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     req.body.id = uniqid();
 
     if (!validateNote(req.body)) {
@@ -31,7 +27,7 @@ router.post('/api/notes', (req, res) => {
     }
 });
 
-router.delete('/api/notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     const result = findById(req.params.id, notes);
     if (result) {
         result.splice(1, 1);
