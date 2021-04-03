@@ -9,10 +9,14 @@ Note-Taker is a project that does exactly what it sounds like, takes and saves n
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Questions](#questions)
 
 ## Installation
 No actions required.
+
+## Usage
+![screenshot of readme-generator preview](../note-taker/public/img/note-taker-screenshot.png)
 
 ## Questions
 Steven Baty
