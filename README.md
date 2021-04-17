@@ -16,7 +16,8 @@ Note-Taker is a project that does exactly what it sounds like, takes and saves n
 No actions required.
 
 ## Usage
-![screenshot of readme-generator preview](../note-taker/public/img/note-taker-screenshot.png)
+https://note-taker-steven.herokuapp.com/
+![screenshot of readme-generator preview](./note-taker-screenshot.png)
 
 ## Questions
 Steven Baty
